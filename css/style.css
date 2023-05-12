@@ -1,0 +1,100 @@
+/* 基本样式 */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header img {
+	height: 50px;
+}
+nav {
+	display: flex;
+}
+nav a {
+	color: #fff;
+	text-decoration: none;
+	margin-left: 20px;
+	font-size: 18px;
+}
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+h1, h2, h3 {
+	margin-top: 0;
+}
+img {
+	max-width: 100%;
+}
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+/* 首页样式 */
+main {
+	height: calc(100vh - 130px);
+	display: flex;
+	align-items: center;
+}
+.banner {
+	flex-grow: 1;
+	margin-left: 20px;
+}
+
+/* 新闻页面样式 */
+.news-item {
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+}
+.news-item img {
+	height: 100px;
+	margin-right: 20px;
+}
+
+/* 车型页面样式 */
+.models-item {
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+}
+.models-item img {
+	height: 100px;
+	margin-right: 20px;
+}
+
+/* 评论页面样式 */
+.review {
+	margin-bottom: 20px;
+}
+.review img {
+	height: 50px;
+	margin-right: 20px;
+}
+
+/* 关于我们页面样式 */
+.about {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.about img {
+	height: 100px;
+	margin-right: 20
+}
